@@ -103,7 +103,7 @@ session_start();
                     </a> -->
                   <hr>
                   <div class="text-center">
-                    <a class="font-weight-bold small" href="classTeacherLogin.php">Class Teacher Login!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="font-weight-bold small" href="classLecturerLogin.php">Class Lecturer Login!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <!-- <a class="font-weight-bold small" href=".php">Cooperative Account!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a class="font-weight-bold small" href="forgotPassword.php">Forgot Password?</a> -->
 

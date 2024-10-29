@@ -13,13 +13,13 @@
       </li>
       <hr class="sidebar-divider">
       <div class="sidebar-heading">
-        Class and Class Arms
+        Class and Class Units
       </div>
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
           aria-expanded="true" aria-controls="collapseBootstrap">
           <i class="fas fa-chalkboard"></i>
-          <span>Manage Classes</span>
+          <span>Manage Class</span>
         </a>
         <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
@@ -33,30 +33,30 @@
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrapusers"
           aria-expanded="true" aria-controls="collapseBootstrapusers">
           <i class="fas fa-code-branch"></i>
-          <span>Manage Class Arms</span>
+          <span>Manage Class Units</span>
         </a>
         <div id="collapseBootstrapusers" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Manage Class Arms</h6>
-            <a class="collapse-item" href="createClassArms.php">Create Class Arms</a>
+            <h6 class="collapse-header">Manage Class Units</h6>
+            <a class="collapse-item" href="createClassArms.php">Create Class Units</a>
             <!-- <a class="collapse-item" href="usersList.php">User List</a> -->
           </div>
         </div>
       </li>
        <hr class="sidebar-divider">
       <div class="sidebar-heading">
-        Teachers
+        Lecturers
       </div>
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrapassests"
           aria-expanded="true" aria-controls="collapseBootstrapassests">
           <i class="fas fa-chalkboard-teacher"></i>
-          <span>Manage Teachers</span>
+          <span>Manage Lecturers</span>
         </a>
         <div id="collapseBootstrapassests" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Manage Class Teachers</h6>
-             <a class="collapse-item" href="createClassTeacher.php">Create Class Teachers</a>
+            <h6 class="collapse-header">Manage Class Lecturers</h6>
+             <a class="collapse-item" href="createClassTeacher.php">Create Class Lecturersr</a>
               <!-- <a class="collapse-item" href="assetsCategoryList.php">Assets Category List</a>
              <a class="collapse-item" href="createAssets.php">Create Assets</a> -->
           </div>
@@ -99,19 +99,19 @@
 
       <hr class="sidebar-divider">
       <div class="sidebar-heading">
-       Session & Term
+       Session & Semester
       </div>
       </li>
        <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrapcon"
           aria-expanded="true" aria-controls="collapseBootstrapcon">
           <i class="fa fa-calendar-alt"></i>
-          <span>Manage Session & Term</span>
+          <span>Manage Session & Semester</span>
         </a>
         <div id="collapseBootstrapcon" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Contribution</h6>
-            <a class="collapse-item" href="createSessionTerm.php">Create Session and Term</a>
+            <a class="collapse-item" href="createSessionTerm.php">Create Session and Semester</a>
             <!-- <a class="collapse-item" href="addMemberToContLevel.php ">Add Member to Level</a> -->
           </div>
         </div>

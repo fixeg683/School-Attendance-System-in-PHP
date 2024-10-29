@@ -223,7 +223,7 @@ if(isset($_POST['save'])){
                             ?>  
                         </div>
                         <div class="col-xl-6">
-                        <label class="form-control-label">Class Arm<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">Class Unit<span class="text-danger ml-2">*</span></label>
                             <?php
                                 echo"<div id='txtHint'></div>";
                             ?>

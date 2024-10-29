@@ -22,7 +22,7 @@ session_start();
 
 </head>
 
-<body class="bg-gradient-login" style="background-image: url('img/logo/loral1.jpe00g');">
+<body class="bg-gradient-login" style="background-image: url('img/logo/loral1.jpg');">
   <!-- Login Content -->
   <div class="container-login">
     <div class="row justify-content-center">
@@ -32,7 +32,7 @@ session_start();
             <div class="row">
               <div class="col-lg-12">
                 <div class="login-form">
-                <h5 align="center">STUDENT ATTENDANCE SYSTEM</h5>
+                <h5 align="center">SUNRISE STUDENT ATTENDANCE SYSTEM</h5>
                   <div class="text-center">
                     <img src="img/logo/attnlg.jpg" style="width:100px;height:100px">
                     <br><br>
@@ -43,7 +43,7 @@ session_start();
                   <select required name="userType" class="form-control mb-3">
                           <option value="">--Select User Roles--</option>
                           <option value="Administrator">Administrator</option>
-                          <option value="ClassTeacher">ClassTeacher</option>
+                          <option value="ClassTeacher">ClassLecturer</option>
                         </select>
                     </div>
                     <div class="form-group">

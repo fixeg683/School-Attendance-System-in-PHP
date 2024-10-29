@@ -152,7 +152,7 @@ $totAttendance = mysqli_num_rows($query1);
               </div>
             </div>
 
-            <!-- Teachers Card  -->
+            <!-- Lecturers Card  -->
             <?php 
             $query1=mysqli_query($conn,"SELECT * from tblclassteacher");                       
             $classTeacher = mysqli_num_rows($query1);
@@ -162,7 +162,7 @@ $totAttendance = mysqli_num_rows($query1);
                             <div class="card-body">
                               <div class="row no-gutters align-items-center">
                                 <div class="col mr-2">
-                                  <div class="text-xs font-weight-bold text-uppercase mb-1">Class Teachers</div>
+                                  <div class="text-xs font-weight-bold text-uppercase mb-1">Class Lecturers</div>
                                   <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $classTeacher;?></div>
                                   <div class="mt-2 mb-0 text-muted text-xs">
                                     <!-- <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>

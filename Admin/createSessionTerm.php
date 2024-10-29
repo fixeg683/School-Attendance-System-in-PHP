@@ -159,10 +159,10 @@ if(isset($_POST['save'])){
         <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Create Session and Term</h1>
+            <h1 class="h3 mb-0 text-gray-800">Create Session and Semester</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Create Session and Term<</li>
+              <li class="breadcrumb-item active" aria-current="page">Create Session and Semester</li>
             </ol>
           </div>
 
@@ -171,7 +171,7 @@ if(isset($_POST['save'])){
               <!-- Form Basic -->
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Create Session and Term</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Create Session and Semester</h6>
                     <?php echo $statusMsg; ?>
                 </div>
                 <div class="card-body">
@@ -182,14 +182,14 @@ if(isset($_POST['save'])){
                       <input type="text" class="form-control" name="sessionName" value="<?php echo $row['sessionName'];?>" id="exampleInputFirstName" placeholder="Session">
                         </div>
                         <div class="col-xl-6">
-                            <label class="form-control-label">Term<span class="text-danger ml-2">*</span></label>
+                            <label class="form-control-label"><span class="text-danger ml-2">*</span></label>
                               <?php
                         $qry= "SELECT * FROM tblterm ORDER BY termName ASC";
                         $result = $conn->query($qry);
                         $num = $result->num_rows;		
                         if ($num > 0){
                           echo ' <select required name="termId" class="form-control mb-3">';
-                          echo'<option value="">--Select Tern--</option>';
+                          echo'<option value="">--Select Semester--</option>';
                           while ($rows = $result->fetch_assoc()){
                           echo'<option value="'.$rows['Id'].'" >'.$rows['termName'].'</option>';
                               }
@@ -220,15 +220,15 @@ if(isset($_POST['save'])){
               <div class="col-lg-12">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">All Session and Term</h6>
-                  <h6 class="m-0 font-weight-bold text-danger">Note: <i>Click on the check symbol besides each to make session and term active!</i></h6>
+                  <h6 class="m-0 font-weight-bold text-primary">All Semester and Term</h6>
+                  <h6 class="m-0 font-weight-bold text-danger">Note: <i>Click on the check symbol besides each to make semester and term active!</i></h6>
                 </div>
                 <div class="table-responsive p-3">
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
                     <thead class="thead-light">
                       <tr>
                         <th>#</th>
-                        <th>Session</th>
+                        <th>Semester</th>
                         <th>Term</th>
                         <th>Status</th>
                         <th>Date</th>

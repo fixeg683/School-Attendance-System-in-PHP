@@ -126,10 +126,10 @@ if(isset($_POST['save'])){
         <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Create Class Arms</h1>
+            <h1 class="h3 mb-0 text-gray-800">Create Class Units</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Create Class Arms</li>
+              <li class="breadcrumb-item active" aria-current="page">Create Class Units</li>
             </ol>
           </div>
 
@@ -138,7 +138,7 @@ if(isset($_POST['save'])){
               <!-- Form Basic -->
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Create Class Arms</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Create Class Units</h6>
                     <?php echo $statusMsg; ?>
                 </div>
                 <div class="card-body">
@@ -161,8 +161,8 @@ if(isset($_POST['save'])){
                             ?>  
                         </div>
                         <div class="col-xl-6">
-                        <label class="form-control-label">Class Arm Name<span class="text-danger ml-2">*</span></label>
-                      <input type="text" class="form-control" name="classArmName" value="<?php echo $row['classArmName'];?>" id="exampleInputFirstName" placeholder="Class Arm Name">
+                        <label class="form-control-label">Class Unit Name<span class="text-danger ml-2">*</span></label>
+                      <input type="text" class="form-control" name="classArmName" value="<?php echo $row['classArmName'];?>" id="exampleInputFirstName" placeholder="Class Unit Name">
                         </div>
                     </div>
                       <?php
@@ -187,7 +187,7 @@ if(isset($_POST['save'])){
               <div class="col-lg-12">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">All Class Arm</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">All Class Unit</h6>
                 </div>
                 <div class="table-responsive p-3">
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
@@ -195,7 +195,7 @@ if(isset($_POST['save'])){
                       <tr>
                         <th>#</th>
                         <th>Class Name</th>
-                        <th>Class Arm Name</th>
+                        <th>Class Unit Name</th>
                          <th>Status</th>
                         <th>Edit</th>
                         <th>Delete</th>
